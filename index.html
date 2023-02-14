@@ -1,38 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Jordan Noble</title>
+    <title>Jordan Noble</title>
     </head>
+<div id="container">
     <body>
-        <header>
-            <h1> Jordan's Index </h1>
-            <h2> Primary school teacher aspiring to new heights as a software developer.</h2>
-        </header>
+    <div id ="header">
+    <header>
+        <h1> Jordan's Portfolio</h1>
+        <h2> Primary school teacher aspiring to new heights as a software developer.</h2>
+    </header>
+    </div>
     <main>
-    <br />
-    <hr />
-        <article>
-            <h3>About Me</h3>
-            <p>Hey, I'm Jordan. I'm studying with Command Shift in the hopes of securing my dream job in the tech industry.</p>
-            <p>I got into code the usual way, with free online resources. I studied with FreeCodeCamp for a while, and tried my hand at Harvard's CS50 course. </p>
-        </article>
-    <article>
-            <h3>Qualities</h3>
-            <ol>
-                <li>Hilarious</li>
-                <li>Good looking</li>
-                <li>Modest</li>
-            </ol>
-    </article>
-    <article>
-            <h3>Hobbies & Interests</h3>
-            <ul>
-                <li>Travel</li>
-                <li>Gaming</li>
-                <li>Gym</li>
-            </ul>
-    </article>
+    <div id="projects"></div>
+        <h2>Projects</h2>
+        <figure>
+            <figcaption>Random Number Generator</figcaption>
+        <img src="./images/randomnumbergenerator.jpg">
+        </figure>
+        <figure>
+            <figcaption>Calorie Counter</figcaption>
+        <img src="./images/caloriecounter.jpg">
+        </figure>
+        <figure>
+            <figcaption>Price Comparison App</figcaption>
+        <img src="./images/pricecomparison.jpg">
+        </figure>
+      
+    </div>
+    <div id="aboutme">
+        <h2>About Me</h2>
+        <p>Hey, I'm Jordan. I'm studying with Command Shift in the hopes of securing my dream job in the tech industry.</p>-
+        <h3>What I like to do:</h3>
+        <ul>
+        <li>Travel</li>
+        <li>Gaming</li>
+        <li>Gym</li>
+        </ul>
+        <figure> 
+        <img src="./images/korea.jpg" alt="jordan sitting in korean temple">
+        <figcaption>
+        This is me when I lived abroad in Korea.
+        </figcaption>
+        </figure>
+        <figure>
+        <img src="./images/machupicchu.jpg" alt="jordan next to machu picchu">
+        <figcaption>
+        This is me when I travelled around South America.
+        </figcaption>
+        </figure>
+    </div>
+    <div id=“socials”">
+        <h2>My Socials</h2>
+        <p>Follow me on <a href="https://twitter.com/JordsCodes">Twitter</a>!</p>
+        <p>Follow me on <a href="">Linkedin</a>!</p>
+    </div>
+    <div id="contactme">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, please provide your details below :).</p>
+        <fieldset>
+        <legend>Personal Details</legend>
+        </br>
+        <label>
+        Name:
+        <input type="text" name="name">
+        </label>
+        </br>
+        </br>
+        <label>
+        Email:
+        <input type="email" name="email">
+        </label>
+        <hr>
+        <legend>Your message goes here :):</legend>
+        </br>
+        <label>
+        <textarea name="details" placeholder="Type here...""></textarea>"
+        </label>
+        </fieldset>
+    </div>
     </body>
     </main>
-    <footer> 2023 Jordan Noble</footer>
+    <div id="footer">
+        <footer> 2023 Jordan Noble</footer>
+    </div>
+</div>
 </html>
