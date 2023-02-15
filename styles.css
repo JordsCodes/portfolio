@@ -29,13 +29,19 @@
 .button
 {
     text-decoration: none;
-    color: black;
-    background-color: #C38D9E;
-    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
     padding: 1%;
     margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition-duration: 1s;
 }
 
+.button:hover 
+{
+    background-color: #C38D9E;
+}
 .header
 {
     grid-area: header;
@@ -77,28 +83,55 @@
     flex-direction: column;
     align-items: center;
 }
-
+.socialimage
+{
+    margin-top: 10px;
+}
 .footer
 {
     grid-area: footer;
+    display: flex;
+    margin-left: 1%;
 }
 
 .headercaption
 {
     font-style: italic;
-    opacity: 0.65;
+    opacity: 0.8;
 }
 
+a
+{
+    color:black;
+}
 body
 {
     margin: 0;
     background-color: #E27D60;
 }
 
-header, h2, figcaption, p, legend, label
+header, h2, figcaption, p, legend, label, .button
 {
     font-family: 'Montserrat', sans-serif;
 }
+
+h1
+{
+    font-size: 26px;
+    margin: 1%;
+}
+
+h2
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+figcaption, p, legend, label, .button
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
 
 figure
 {
@@ -110,6 +143,7 @@ figure
 figcaption
 {
     max-width: 90%;
+    text-align: center;
 }
 
 img
@@ -120,9 +154,19 @@ img
 p
 {
     max-width: 90%;
+    text-align: center;
 }
 
 fieldset
 {
     margin-bottom: 5%;
+    background-color: #E27D60;
+    width: 80%;
+}
+
+textarea
+{
+    width: 95%;
+    height: 150px;
+    resize: none;
 }

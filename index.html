@@ -8,10 +8,10 @@
 <body>
 <div class="container">
     <div class="navbar">
-        <a href="Home" class="button">Projects</a>
-        <a href="news.asp" class="button">About Me</a>
-        <a href="contact.asp" class="button">Contact Me</a>
-        <a href="about.asp" class="button">My Socials</a>
+        <a href="#projects" class="button">Projects</a>
+        <a href="#aboutme" class="button">About Me</a>
+        <a href="#contactme" class="button">Contact Me</a>
+        <a href="#social" class="button">My Socials</a>
     </div>
     <div class="header">
         <header>
@@ -19,7 +19,7 @@
             <h2 class="headercaption"> Primary school teacher aspiring to new heights as a software developer.</h2>
         </header>
     </div>
-    <div class="projects">
+    <div class="projects" id="projects">
         <h2>Projects</h2>
         <figure>
             <figcaption>Random Number Generator</figcaption>
@@ -34,9 +34,9 @@
             <img src="./images/pricecomparison.jpg">
         </figure>
     </div>
-    <div class="aboutme">
+    <div class="aboutme" id="aboutme">
         <h2>About Me</h2>
-            <p>Hey, I'm Jordan. I'm studying with Command Shift in the hopes of securing my dream job in the tech industry.
+            <p>Hey, I'm Jordan. I'm studying with <a href="https://www.commandshift.co/">Command Shift</a> in the hopes of securing my dream job in the tech industry.
                 I like coding, hiking, travelling, and going to gigs and festivals with my friends.
             </p>-
         <figure> 
@@ -48,11 +48,10 @@
             <figcaption>This is me when I travelled around South America.</figcaption>
         </figure>
     </div>
-    <div class="contactme">
+    <div class="contactme" id="contactme">
         <h2>Contact Me</h2>
             <p>If you'd like to get in touch, please provide your details below :).</p>
             <fieldset>
-                <legend>Personal Details</legend>
                 </br>
                 <label>
                     Name:
@@ -65,17 +64,19 @@
                     <input type="email" name="email">
                 </label>
                 <hr>
-                <legend>Your message goes here :):</legend>
                 </br>
                 <label>
-                    <textarea name="details" placeholder="Type here...""></textarea>"
+                    <textarea name="details" placeholder="Write me a message here :)"></textarea>"
+                </label>
+                <label>
+                    <input type="submit" name="submit" class="button">
                 </label>
             </fieldset>
     </div>
-    <div class="social">
+    <div class="social" id="social">
         <h2>My Socials</h2>
-            <p>Follow me on <a href="https://twitter.com/JordsCodes">Twitter</a>!</p>
-            <p>Follow me on <a href="">Linkedin</a>!</p>
+            <p>Follow me on twitter!<a href="https://twitter.com/JordsCodes"><img src="./images/twitter.png" class="socialimage"></a></p>
+            <p>Follow me on linkedin! <a href="https://uk.linkedin.com/"><img src="./images/linkedin.png" class="socialimage"></a></p>
     </div>
     <div class="footer"><p>Jordan Noble 2023</p></div>
     
