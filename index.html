@@ -15,58 +15,64 @@
     </div>
     <div class="header">
         <header>
-            <h1> Jordan's Portfolio </h1>
-            <h2 class="headercaption"> Primary school teacher aspiring to new heights as a software developer.</h2>
+            <h1 class="headerheading"> Jordan's Portfolio </h1>
+            <h2 class="headersubheading"> Primary school teacher aspiring to new heights as a software developer.</h2>
         </header>
     </div>
     <div class="projects" id="projects">
-        <h2>Projects</h2>
+        <h2 class="projectsheading">Projects</h2>
+        <div class="projectpics">
         <figure>
             <figcaption>Random Number Generator</figcaption>
             <img src="./images/randomnumbergenerator.jpg">
         </figure>
         <figure>
-            <figcaption>Calorie Counter</figcaption>
+            <figcaption>Easy Calorie Counter</figcaption>
             <img src="./images/caloriecounter.jpg">
         </figure>
         <figure>
             <figcaption>Price Comparison App</figcaption>
             <img src="./images/pricecomparison.jpg">
         </figure>
+        </div>
     </div>
     <div class="aboutme" id="aboutme">
-        <h2>About Me</h2>
-            <p>Hey, I'm Jordan. I'm studying with <a href="https://www.commandshift.co/" target="_blank">Command Shift</a> in the hopes of securing my dream job in the tech industry.
+        <div class="aboutmetextbox">
+            <h2 class = "aboutmeheading">About Me</h2>
+            <p class="aboutmetext">Hey, I'm Jordan. I'm studying with <a href="https://www.commandshift.co/" target="_blank">Command Shift</a> in the hopes of securing my dream job in the tech industry.
                 I like coding, hiking, travelling, and going to gigs and festivals with my friends.
             </p>
+        </div>
+        <div class="aboutmepics">
         <figure> 
             <img src="./images/korea.jpg" alt="jordan sitting in korean temple">
-            <figcaption>This is me when I lived abroad in Korea.</figcaption>
+            <figcaption class = "aboutmecaption" >This is me when I lived abroad in Korea.</figcaption>
         </figure>
         <figure>
             <img src="./images/machupicchu.jpg" alt="jordan next to machu picchu">
-            <figcaption>This is me when I travelled around South America.</figcaption>
+            <figcaption class = "aboutmecaption" >This is me when I travelled around South America.</figcaption>
         </figure>
+        </div>
     </div>
     <div class="contactme" id="contactme">
-        <h2>Contact Me</h2>
-            <p>If you'd like to get in touch, please provide your details below :).</p>
+        <h2 class="contactmeheading">Contact Me</h2>
+            <p class="contactmetext">If you'd like to get in touch, please provide your details below :).</p>
             <fieldset>
                 </br>
                 <label>
                     Name:
-                    <input type="text" name="name">
+                    <input type="text" name="name" class="inputdetails">
                 </label>
                 </br>
                 </br>
                 <label>
                     Email:
-                    <input type="email" name="email">
+                    <input type="email" name="email" class="inputdetails">
                 </label>
                 <hr>
                 </br>
                 <label>
-                    <textarea name="details" placeholder="Write me a message here :)"></textarea>"
+                    <textarea class="inputtext" name="details" placeholder="Write me a message here :)"></textarea>"
                 </label>
                 <label>
                     <input type="submit" name="submit" class="button">
@@ -74,11 +80,13 @@
             </fieldset>
     </div>
     <div class="social" id="social">
-        <h2>My Socials</h2>
-            <p>Follow me on twitter!<a href="https://twitter.com/JordsCodes" target="_blank"><img src="./images/twitter.png" class="socialimage"></a></p>
-            <p>Follow me on linkedin! <a href="https://uk.linkedin.com/" target="_blank" ><img src="./images/linkedin.png" class="socialimage"></a></p>
+        <h2 class="socialheading">My Socials</h2>
+            <p class="socialtext">Follow me on twitter!</p>
+            <a href="https://twitter.com/JordsCodes" target="_blank"><img src="./images/twitter.png" class="socialimage"></a>
+            <p class="socialtext">Follow me on linkedin!</p> 
+            <a href="https://uk.linkedin.com/" target="_blank" ><img src="./images/linkedin.png" class="socialimage"></a>
     </div>
-    <div class="footer"><p>Jordan Noble 2023</p></div>
+    <div class="footer"><p class="footertext">Jordan Noble 2023</p></div>
     
 </div>
 </body>
