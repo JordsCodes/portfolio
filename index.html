@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
         <link rel="stylesheet" href="styles.css">
         <title>Jordan Noble</title>
     </head>
@@ -8,10 +9,10 @@
 <body>
 <div class="container">
     <div class="navbar">
-        <a href="#projects" class="button">Projects</a>
-        <a href="#aboutme" class="button">About Me</a>
-        <a href="#contactme" class="button">Contact Me</a>
-        <a href="#social" class="button">My Socials</a>
+        <a href="#projects" class="navbarbutton">Projects</a>
+        <a href="#aboutme" class="navbarbutton">About Me</a>
+        <a href="#contactme" class="navbarbutton">Contact Me</a>
+        <a href="#social" class="navbarbutton">My Socials</a>
     </div>
     <div class="header">
         <header>
@@ -23,26 +24,24 @@
         <h2 class="projectsheading">Projects</h2>
         <div class="projectpics">
         <figure>
-            <figcaption>Random Number Generator</figcaption>
+            <figcaption>Number Generator</figcaption>
             <img src="./images/randomnumbergenerator.jpg">
         </figure>
         <figure>
-            <figcaption>Easy Calorie Counter</figcaption>
+            <figcaption>Calorie Counter</figcaption>
             <img src="./images/caloriecounter.jpg">
         </figure>
-        <figure>
-            <figcaption>Price Comparison App</figcaption>
+        <figure class=>
+            <figcaption>Price Comparison</figcaption>
             <img src="./images/pricecomparison.jpg">
         </figure>
         </div>
     </div>
     <div class="aboutme" id="aboutme">
-        <div class="aboutmetextbox">
             <h2 class = "aboutmeheading">About Me</h2>
             <p class="aboutmetext">Hey, I'm Jordan. I'm studying with <a href="https://www.commandshift.co/" target="_blank">Command Shift</a> in the hopes of securing my dream job in the tech industry.
                 I like coding, hiking, travelling, and going to gigs and festivals with my friends.
             </p>
-        </div>
         <div class="aboutmepics">
         <figure> 
             <img src="./images/korea.jpg" alt="jordan sitting in korean temple">
@@ -56,7 +55,7 @@
     </div>
     <div class="contactme" id="contactme">
         <h2 class="contactmeheading">Contact Me</h2>
-            <p class="contactmetext">If you'd like to get in touch, please provide your details below :).</p>
+            <p class="contactmetext">If you'd like to get in touch, please provide your details below.</p>
             <fieldset>
                 </br>
                 <label>
@@ -72,10 +71,10 @@
                 <hr>
                 </br>
                 <label>
-                    <textarea class="inputtext" name="details" placeholder="Write me a message here :)"></textarea>"
+                    <textarea class="inputtext" name="details" placeholder="Write me a message here"></textarea>"
                 </label>
                 <label>
-                    <input type="submit" name="submit" class="button">
+                    <input type="submit" name="submit" class="inputbutton">
                 </label>
             </fieldset>
     </div>
@@ -84,7 +83,7 @@
             <p class="socialtext">Follow me on twitter!</p>
             <a href="https://twitter.com/JordsCodes" target="_blank"><img src="./images/twitter.png" class="socialimage"></a>
             <p class="socialtext">Follow me on linkedin!</p> 
-            <a href="https://uk.linkedin.com/" target="_blank" ><img src="./images/linkedin.png" class="socialimage"></a>
+            <a href="https://uk.linkedin.com/" target="_blank"><img src="./images/linkedin.png" class="socialimage"></a>
     </div>
     <div class="footer"><p class="footertext">Jordan Noble 2023</p></div>
     
